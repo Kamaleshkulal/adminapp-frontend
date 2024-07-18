@@ -214,7 +214,7 @@ const FacultyAdd = ({ onClose, collegeId, onAdd }) => {
                                 <label className="block text-gray-700 text-sm font-bold mb-2">Secondary Number</label>
                                 <input
                                     type="text"
-                                    name="adminHomeNumber"
+                                    name="facultyHomeNumber"
                                     value={formData.facultyHomeNumber || ''}
                                     onChange={handleChange}
                                     required
